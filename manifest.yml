@@ -1,5 +1,5 @@
 applications :
-- name : VzClass
+- name : VzClass-Green
 memory: 512M
 instance: 1
 path: dist/MyProj.war
