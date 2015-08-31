@@ -59,6 +59,7 @@
 
 	</target>
 	<target depends="build" name="package" description="Packagign all files into ${project.war}">
+		<echo message="${junit successful}" />
 		<war destfile="dist/${project.war}" index="true" basedir="dist">
 			<classes dir="${project.classes.dir}" />
 			<lib dir="${project.lib.dir}" />

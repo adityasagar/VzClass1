@@ -7,8 +7,8 @@ import javax.mail.internet.*;
 
      public class EmailSend {
         private static final String SMTP_HOST_NAME = "smtp.sendgrid.net";
-        private static final String SMTP_AUTH_USER = "xFBlqCdszg";
-        private static final String SMTP_AUTH_PWD = "txxH436VA4kK5272";
+        private static final String SMTP_AUTH_USER = "89jT0OHvgH";
+        private static final String SMTP_AUTH_PWD = "RcTFIXGva4ls9888";
 
 
         public void sendMail(ProductVO product,UserVO buyer,UserVO seller,String msg) throws Exception
