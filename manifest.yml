@@ -1,8 +1,8 @@
 applications :
-- name : vzOlx
+- name : VzClass
 memory: 512M
 instance: 1
 path: dist/MyProj.war
 buildpack: https://github.com/cloudfoundry/java-buildpack
 services:
-   [ MySql, SendGridEmail ]
+   [ MySql, SendGridMail ]
